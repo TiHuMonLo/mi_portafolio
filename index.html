@@ -1,0 +1,169 @@
+<!--
+  Portafolio - Tito Hugo Montiel Lombana
+  Autoría y derechos de autor: Tito Hugo Montiel Lombana-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Tito Montiel</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/2193d055c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <nav id="navbar">
+      <div class="logo">Tito<span>ML</span></div>
+      <input type="checkbox" id="menu-toggle" class="toggle-checkbox">
+      <label for="menu-toggle" class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+   
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Tito Montiel</h1>
+          <h2>Desarrollador Web Junior</h2>
+          <p>
+            Ingeniero Electrónico. Actualmente en transición al desarrollo de software, 
+            con formación en tecnologías web como HTML, CSS, JavaScript, React y Node.js. 
+            Apasionado por aprender, crear soluciones digitales y aplicar la disciplina 
+            técnica a proyectos de programación.
+            </p>
+      
+          <blockquote class="frase-estoica">
+            "La felicidad de tu vida depende de la calidad de tus pensamientos." Marco Aurelio
+          </blockquote>
+
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/thmontiel27"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61558684931324"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/TiHuMonLo/TiHuMonLo"><i class="fab fa-github"></i></a>
+          </div>
+
+          <div class="botones-principales">
+            <a href="#contacto" class="btn1">Contáctame</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="/assets/Hugo2.1.png" alt="Imagen de perfil">
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="sobre-mi" class="sobre-mi">
+      <div class="sobre-mi-content">
+        <div class="sobre-mi-image">
+          <img src="/assets/Fotoh1.png" alt="Imagen de perfil">
+        </div>
+        <div class="sobre-mi-text">
+          <h1>Sobre mí</h1>
+          <h2>Ingeniero Electrónico y Desarrollador Web Junior</h2>
+          <p>
+           Soy Tito Hugo Montiel Lombana, un apasionado del aprendizaje y la tecnología. Ingeniero Electrónico y Técnico Electricista con amplia experiencia en el área industrial, actualmente enfocado en el desarrollo web full-stack. Me motiva crear soluciones que unan la lógica de la ingeniería con la creatividad del software. Creo firmemente que el conocimiento y la disciplina son la base del progreso, y encuentro inspiración en los principios estoicos de serenidad, propósito y acción consciente.
+          <blockquote class="frase-estoica">
+            "El hombre sabio armoniza su vida con la naturaleza."  Marco Aurelio
+          </blockquote>
+        <details class="leer-mas">
+  <summary class="btn1">Leer más</summary>
+
+  <p>
+    Actualmente me encuentro desarrollando proyectos full-stack con tecnologías como
+    React, Node.js y bases de datos, enfocado en crear soluciones reales, aprender
+    buenas prácticas y aportar valor a equipos de desarrollo.
+  </p>
+
+</details>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="habilidades" class="habilidades">
+      <h2 class="section-title">Habilidades</h2>
+      <div class="habilidades-container">
+        <div class="card-habilidad">
+          <img src="/img/html-5.png" alt="HTML5">
+          <h3>HTML</h3>
+          <p>Estructura semántica de páginas web.</p>
+        </div>
+        <div class="card-habilidad">
+          <img src="/img/css-3.png" alt="CSS3">
+          <h3>CSS</h3>
+          <p>Diseño responsivo con Flexbox, Grid y animaciones.</p>
+        </div>
+        <div class="card-habilidad">
+          <img src="/img/javascript.png" alt="JavaScript">
+          <h3>JavaScript</h3>
+          <p>Interactividad y manejo del DOM.</p>
+        </div>
+      </div>
+    </section>
+
+  
+    <section id="proyectos" class="proyectos">
+      <h2 class="section-title">Proyectos</h2>
+      <div class="proyecto-container">
+        <div class="card-proyecto">
+          <img src="/assets/imagecard1.png" alt="Tarjeta de presentación"> 
+          <h3>Proyecto 1</h3>
+          <p>Tarjeta interactiva hecha con HTML y CSS, con efectos de hover para practicar diseño moderno.</p>
+          <a href="/proyectos/Tarjeta-Tito/main/index.html" class="btn1" target="_blank" rel="noopener noreferrer">Ver tarjeta digital</a>
+        </div>
+        <div class="card-proyecto">
+          <img src="/assets/imagecard2.png" alt="Carrusel de imágenes"> 
+          <h3>Proyecto 2</h3>
+          <p>Carrusel de imágenes responsive con HTML, CSS y JavaScript con navegación interactiva y transiciones animadas.</p>
+          <a href="/proyectos/Carrusel-Tito/main/index.html" class="btn1" target="_blank" rel="noopener noreferrer">Ver carrusel</a>
+        </div>
+      </div>
+    </section>
+
+ 
+    <section id="contacto" class="contacto">
+      <h2 class="section-title">Contacto</h2>
+      <form id="contactForm" class="contact-form"
+      action="https://formspree.io/f/mykdwvql"
+      method="POST">
+        <input type="hidden" name="_subject" value="Nuevo mensaje desde tu portafolio" />
+        <div class="input-box">
+          <input type="text" id="name" name="name" placeholder="Nombre" required>
+          <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+        </div>
+        <div class="input-box">
+          <input type="text" id="subject" name="subject" placeholder="Asunto" required>
+        </div>
+        <textarea id="message" name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+        <button type="submit" class="btn1">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Tito Montiel Lombana - Todos los derechos reservados</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
