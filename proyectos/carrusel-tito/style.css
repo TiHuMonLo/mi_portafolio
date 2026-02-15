@@ -1,0 +1,73 @@
+/*  Estilo general del carrusel */
+.carousel-container {
+  position: relative;
+  width: 80%;
+  max-width: 900px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  background: #000;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/*  Botones de navegación */
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+  transition: background 0.3s;
+}
+
+button.prev:hover, button.next:hover {
+  background: rgba(0,0,0,0.9);
+}
+
+button.prev { left: 15px; }
+button.next { right: 15px; }
+
+/*  Responsive */
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 95%;
+  }
+
+  button.prev, button.next {
+    font-size: 1.5rem;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .carousel img {
+    height: 250px;
+  }
+
+  button.prev, button.next {
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+}
